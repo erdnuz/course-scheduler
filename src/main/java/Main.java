@@ -122,8 +122,8 @@ public class Main {
 
         // Sort options based on their ranking (best first)
         options.sort((o1, o2) -> Integer.compare(
-                RankOption.optionScore(o2), // higher score first
-                RankOption.optionScore(o1)
+                RankOption.optionScore(o2, true), // higher score first
+                RankOption.optionScore(o1, true)
         ));
 
         // Print final options

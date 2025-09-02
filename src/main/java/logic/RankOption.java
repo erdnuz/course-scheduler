@@ -14,12 +14,12 @@ public class RankOption {
      * 1. Days off (more days off = higher score)
      * 2. Minimal waiting time between courses
      * 3. Ignore labs/tutorials in scoring
-     * 4. No early classes (sleep in)
+     * 4. No early classes
      * 5. No late classes
      *
      * Higher score = better schedule
      */
-    public static int optionScore(List<TimeSlot> schedule) {
+    public static int optionScore(List<TimeSlot> schedule, boolean punishGap) {
         int score = 0;
         System.out.println("\n--- Scoring Schedule ---");
         Output.displaySchedule(schedule);
@@ -50,23 +50,26 @@ public class RankOption {
         score += pointsDaysOff;
         System.out.println("Days off: " + daysOff + ", points: +" + pointsDaysOff);
 
-        // --- Factor 2: Minimal waiting time ---
-        int gap = 0;
-        for (int day = 0; day < 5; day++) {
-            
-            int last = -1;
-            for (int t = 0; t < 9; t++) {
-                if (grid[day][t] != null) {
-                    if (last != -1)  {
-                        gap += t - last - 1;
+        if (punishGap) {
+            // --- Factor 2: Minimal waiting time ---
+            int gap = 0;
+            for (int day = 0; day < 5; day++) {
+                
+                int last = -1;
+                for (int t = 0; t < 9; t++) {
+                    if (grid[day][t] != null) {
+                        if (last != -1)  {
+                            gap += t - last - 1;
+                        }
+                        last = t;
                     }
-                    last = t;
                 }
             }
-        }
-        score -= gap;
-        System.out.println("Total gaps between classes: " + gap + " -> -" + gap + " points");
+            score -= gap;
+            System.out.println("Total gaps between classes: " + gap + " -> -" + gap + " points");
 
+        }
+        
         // --- Factor 4 & 5: Early and Late classes ---
         for (int day = 0; day < 5; day++) {
             if (grid[day][0] != null) {
@@ -99,7 +102,7 @@ public class RankOption {
             System.out.println("Total score: " + score);
             return score;
         }
-        int totalScore = (score + optionScore(lecturesOnly)) / 2;
+        int totalScore = (score + optionScore(lecturesOnly, false)) / 2;
         System.out.println("Total score (with lec-only averaged): " + totalScore);
 
         return totalScore;
