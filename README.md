@@ -7,8 +7,8 @@ A Java tool to generate, display, and rank course schedules based on customizabl
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/erdnuz/course-options.git
-cd course-options
+git clone https://github.com/erdnuz/course-scheduler.git
+cd course-scheduler
 ```
 
 2. Build the project using Maven:
@@ -24,7 +24,7 @@ This will download all required dependencies (e.g., Jackson) and compile the sou
 You can run the main class (Main) via Maven:
 
 ```bash
-mvn exec:java -Dexec.mainClass="your.package.Main"
+mvn exec:java -Dexec.mainClass="Main"
 ```
 
 When prompted, provide the path to a course JSON file (e.g., test1.json or test2.json).
@@ -36,8 +36,7 @@ Type exit to quit the program.
 ## Project Structure
 
 ```text
-Copy code
-course-options/
+course-scheduler/
 ├── pom.xml                  # Maven project file
 ├── README.md                # This file
 ├── src/
