@@ -1,0 +1,164 @@
+[
+  {
+    "field": "CSI",
+    "code": 1011,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 1, "day": 1, "extended": true},
+          {"startTime": 3, "day": 3, "extended": true}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 4, "day": 0, "extended": false},
+          {"startTime": 6, "day": 2, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 2, "day": 3, "extended": false},
+          {"startTime": 5, "day": 1, "extended": false}
+        ]
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 2, "day": 2, "extended": false},
+          {"startTime": 4, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 3, "day": 1, "extended": false},
+          {"startTime": 7, "day": 4, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 1, "day": 2, "extended": false},
+          {"startTime": 6, "day": 0, "extended": false}
+        ]
+      }
+    ]
+  },
+  {
+    "field": "MAT",
+    "code": 2371,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 1, "day": 2, "extended": false},
+          {"startTime": 3, "day": 4, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 4, "day": 1, "extended": false},
+          {"startTime": 6, "day": 3, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 2, "day": 2, "extended": false},
+          {"startTime": 5, "day": 0, "extended": false}
+        ]
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 3, "day": 1, "extended": false},
+          {"startTime": 5, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 2, "day": 0, "extended": false},
+          {"startTime": 6, "day": 2, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 1, "day": 3, "extended": false},
+          {"startTime": 4, "day": 1, "extended": false}
+        ]
+      }
+    ]
+  },
+  {
+    "field": "PHY",
+    "code": 1501,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 2, "day": 1, "extended": true},
+          {"startTime": 4, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 3, "day": 2, "extended": false},
+          {"startTime": 5, "day": 0, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 1, "day": 3, "extended": false},
+          {"startTime": 6, "day": 1, "extended": false}
+        ]
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 0, "day": 2, "extended": false},
+          {"startTime": 3, "day": 4, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 1, "day": 0, "extended": false},
+          {"startTime": 4, "day": 2, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 2, "day": 1, "extended": false},
+          {"startTime": 5, "day": 3, "extended": false}
+        ]
+      }
+    ]
+  },
+  {
+    "field": "CHE",
+    "code": 1202,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 2, "day": 1, "extended": false},
+          {"startTime": 4, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 3, "day": 0, "extended": false},
+          {"startTime": 5, "day": 2, "extended": false}
+        ],
+        "tutorialOptions": []
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 1, "day": 2, "extended": false},
+          {"startTime": 3, "day": 4, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 2, "day": 1, "extended": false},
+          {"startTime": 4, "day": 3, "extended": false}
+        ],
+        "tutorialOptions": []
+      }
+    ]
+  },
+  {
+    "field": "ENG",
+    "code": 2100,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 1, "day": 1, "extended": false},
+          {"startTime": 3, "day": 4, "extended": false}
+        ],
+        "laboratoryOptions": [],
+        "tutorialOptions": []
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 0, "day": 0, "extended": false},
+          {"startTime": 2, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [],
+        "tutorialOptions": []
+      }
+    ]
+  }
+]

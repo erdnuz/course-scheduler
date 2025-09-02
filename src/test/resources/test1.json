@@ -1,0 +1,134 @@
+[
+  {
+    "field": "CSI",
+    "code": 1011,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 0, "day": 0, "extended": true},
+          {"startTime": 2, "day": 2, "extended": true}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 3, "day": 1, "extended": false},
+          {"startTime": 5, "day": 3, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 1, "day": 4, "extended": false},
+          {"startTime": 4, "day": 2, "extended": false}
+        ]
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 1, "day": 0, "extended": false},
+          {"startTime": 3, "day": 1, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 2, "day": 2, "extended": false},
+          {"startTime": 6, "day": 4, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 0, "day": 1, "extended": false},
+          {"startTime": 5, "day": 3, "extended": false}
+        ]
+      }
+    ]
+  },
+  {
+    "field": "MAT",
+    "code": 2371,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 0, "day": 1, "extended": false},
+          {"startTime": 2, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 3, "day": 0, "extended": false},
+          {"startTime": 5, "day": 2, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 1, "day": 1, "extended": false},
+          {"startTime": 4, "day": 3, "extended": false}
+        ]
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 1, "day": 0, "extended": false},
+          {"startTime": 4, "day": 2, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 2, "day": 3, "extended": false},
+          {"startTime": 6, "day": 4, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 0, "day": 0, "extended": false},
+          {"startTime": 3, "day": 1, "extended": false}
+        ]
+      }
+    ]
+  },
+  {
+    "field": "PHY",
+    "code": 1501,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 0, "day": 0, "extended": true},
+          {"startTime": 3, "day": 2, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 1, "day": 1, "extended": false},
+          {"startTime": 4, "day": 3, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 2, "day": 0, "extended": false},
+          {"startTime": 5, "day": 2, "extended": false}
+        ]
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 1, "day": 1, "extended": false},
+          {"startTime": 2, "day": 4, "extended": false}
+        ],
+        "laboratoryOptions": [
+          {"startTime": 3, "day": 0, "extended": false},
+          {"startTime": 5, "day": 3, "extended": false}
+        ],
+        "tutorialOptions": [
+          {"startTime": 0, "day": 2, "extended": false},
+          {"startTime": 6, "day": 4, "extended": false}
+        ]
+      }
+    ]
+  },
+  {
+    "field": "ENG",
+    "code": 2100,
+    "sections": [
+      {
+        "name": "A",
+        "lectures": [
+          {"startTime": 7, "day": 4, "extended": false},
+          {"startTime": 7, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [],
+        "tutorialOptions": []
+      },
+      {
+        "name": "B",
+        "lectures": [
+          {"startTime": 5, "day": 3, "extended": false},
+          {"startTime": 6, "day": 3, "extended": false}
+        ],
+        "laboratoryOptions": [],
+        "tutorialOptions": []
+      }
+    ]
+  }
+]
