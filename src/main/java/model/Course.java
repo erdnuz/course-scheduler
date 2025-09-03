@@ -77,6 +77,10 @@ public class Course {
         return options;
     }
 
+    public String getDisplayName() {
+        return field.toString() + code;
+    }
+
     @Override
     public String toString() {
         StringBuilder message = new StringBuilder(field.toString() + code + ":");

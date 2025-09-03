@@ -1,0 +1,11 @@
+{
+  "dayOffReward": 3,
+
+  "gapPunishment": 1,
+
+  "timePunishments": [2, 1, 1, 2],
+
+
+  "doLectureOnlyRound": true,
+  "lectureOnlyWeight": 0.5
+}
