@@ -66,6 +66,17 @@ course-scheduler/
 └── .gitignore
 ```
 
+## Features
+
+- Load course data from JSON files.
+- Generate all valid schedule options for multiple courses.
+- Rank schedules based on:
+  - Number of days off.
+  - Minimal gaps between classes.
+  - Preferred start and end times (avoid early/late classes).
+- Display schedules in a clear, readable timetable format.
+- Provide detailed debugging output showing how points are calculated for each schedule.
+
 ---
 
 ## JSON Format
