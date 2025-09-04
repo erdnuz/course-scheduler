@@ -142,11 +142,34 @@ src/main/java/logic/config/config.json
 
 Configurable options include:
 
-* Points for days off
-* Penalties for early/late classes
-* Gap penalties
-* Whether to do lecture-only scoring
-* Lecture-only scoring weighting (If the above option is turned on)
+* Points awarded for days off
+
+* Penalties for early or late classes
+
+* Penalties for gaps between classes
+
+* Enable lecture-only scoring
+
+* Weight for lecture-only scoring (applies if lecture-only scoring is enabled)
+
+---
+
+## Lecture-only scoring
+
+Some tutorials and laboratories are optional or frequently swapped by students. If the student wants to give less weight to these components in the ranking, they can enable lecture-only scoring. When enabled, the final score is calculated as:
+
+```ini
+finalScore = (regularScore * (1 - weight)) + (lectureOnlyScore * weight)
+```
+
+
+* ```weight``` is the lecture-only scoring weight configured in config.json.
+
+* ```regularScore``` includes all components (lectures, tutorials, labs).
+
+* ```lectureOnlyScore``` includes only lectures.
+
+This allows schedules to be ranked more heavily based on lectures while minimizing the influence of optional components.
 
 ---
 
